@@ -8,7 +8,7 @@ public class App {
         Scanner clavier = new Scanner(System.in);
         System.out.println("Combien gagnez vous par an ?");
         int salaireAnnuel = clavier.nextInt();
-        if(salaireAnnuel>=30000){
+        if(salaireAnnuel>30000){
             System.out.println("Depuis combien d'années travaillez vous ?");
             int anneeTravail = clavier.nextInt();
             if(anneeTravail>=2){
